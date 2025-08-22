@@ -1,5 +1,8 @@
 ### Logg
 
+#### 22-Aug-2025 / Rydding
+1. Fjernet default Vite boilerplate og laget ny minimal frontend som kan bygges videre på. 
+
 #### 21-Aug-2025 / Initielt oppsett og render.com
 1. Opprettet skjelett for frontend med vite@latest (React + TS) og backend (node + express).
 2. Konfigurert build scripts: innehold fra frontend /dist kopieres manuelt over til backend /public for tilfellet (for å holde build-filene separert). Endret index.ts i backend sånn at statisk build-fil fra front kan serves. Også lagt til en SPA-fallback her. 
