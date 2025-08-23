@@ -1,7 +1,10 @@
 ### Logg
 
+#### 23-Aug-2025 / ESLint
+ - Konfigurert ESLint og tatt i bruk stylistic-plugin. Beholder mye av default settings, men spesifisert en del rules. Vurdert bruk av prettier, men tenker det gir bedre mening med kontinuerlig feedback og gjøre alt av korrigeringer manuelt underveis. Setter alle rules som "error" til å starte med. 
+
 #### 22-Aug-2025 / Rydding
-1. Fjernet default Vite boilerplate og laget ny minimal frontend som kan bygges videre på. 
+ - Fjernet default Vite boilerplate og laget ny minimal frontend som kan bygges videre på. 
 
 #### 21-Aug-2025 / Initielt oppsett og render.com
 1. Opprettet skjelett for frontend med vite@latest (React + TS) og backend (node + express).
