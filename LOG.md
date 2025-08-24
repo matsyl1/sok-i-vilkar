@@ -1,7 +1,8 @@
 ### Logg
 
-#### 24-Aug-2025 / ESM vs CommonJS
+#### 24-Aug-2025 / ESM vs CommonJS og veien videre
  - Oppdaget at backend ESLint feiler ved kjøring av lint-script (terminal anbefaler "type": "module" i package.json). Av det jeg lest så virker ESM/frontend og CommonJS/backend som en vanlig konfigurasjon så holder meg til dette. Enklest løsning virker å bli endring av filnavn (.mjs) sånn at backend kan holdes med CJS. 
+ - Vurdert litt forskjellige alternativer rundt prosessering av PDFer og visning av søkeresultat i frontend. Initielt var tanken noen form for pre-prosessering/parsing av dokumentene og visning av selve PDF-dokumentet med matchende søk uthevet. I første omgang så starter jeg med et dokument og ekstrahering/visning av søkeresultat som rå tekst - bygger videre derifra. 
 
 #### 23-Aug-2025 / ESLint
  - Konfigurert ESLint og tatt i bruk stylistic-plugin. Beholder mye av default settings, men spesifisert en del rules. Vurdert bruk av prettier, men tenker det gir bedre mening med kontinuerlig feedback og gjøre alt av korrigeringer manuelt underveis. Setter alle rules som "error" til å starte med. 
