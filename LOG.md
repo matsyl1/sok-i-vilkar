@@ -1,5 +1,8 @@
 ### Logg
 
+#### 24-Aug-2025 / Backend
+ - Laget enkel ping-endpoint i server.ts som senere skal brukes til å håndtere søk fra frontend. Korrigert og ryddet i index.ts. Også justert build-script sånn at ny /dist lages per auto (ny prod-versjon som fungerer). 
+
 #### 24-Aug-2025 / ESM vs CommonJS og veien videre
  - Oppdaget at backend ESLint feiler ved kjøring av lint-script (terminal anbefaler "type": "module" i package.json). Av det jeg lest så virker ESM/frontend og CommonJS/backend som en vanlig konfigurasjon så holder meg til dette. Enklest løsning virker å bli endring av filnavn (.mjs) sånn at backend kan holdes med CJS. 
  - Vurdert litt forskjellige alternativer rundt prosessering av PDFer og visning av søkeresultat i frontend. Initielt var tanken noen form for pre-prosessering/parsing av dokumentene og visning av selve PDF-dokumentet med matchende søk uthevet. I første omgang så starter jeg med et dokument og ekstrahering/visning av søkeresultat som rå tekst - bygger videre derifra. 
