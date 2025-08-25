@@ -34,6 +34,10 @@ export default tseslint.config(
       'stylistic/function-call-spacing': ['error', 'never'],
       'curly': ['error', 'all'],
       'prefer-const': ['error'],
+      '@typescript-eslint/no-unused-vars': ['error', {
+        argsIgnorePattern: '^_',
+      }],
+      '@typescript-eslint/no-require-imports': 'off',
     },
   },
 );
