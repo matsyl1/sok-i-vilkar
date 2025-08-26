@@ -1,6 +1,10 @@
 ### Logg
 
-#### 24-Aug-2025 / Backend
+#### 26-Aug-2025 / Søk fra frontend og respons fra backend
+ - Utvidet frontend med en SearchBar-komponent som er ansvarlig for å håndtere input fra bruker i lokal state. Selve søket/query sendes til parent app.tsx som tar seg av interaksjon med backend. Ved OK/200 respons fra backend så presenteres også selve søket her foreløpig. Har i tillegg lagt til en server proxy i vite.config.ts.
+ - Justert /search-endpoint i backend sånn at den lytter etter GET-request og sender JSON tilbake til frontend. 
+
+#### 25-Aug-2025 / Backend
  - Laget enkel ping-endpoint i server.ts som senere skal brukes til å håndtere søk fra frontend. Korrigert og ryddet i index.ts. Også justert build-script sånn at ny /dist lages per auto (ny prod-versjon som fungerer). 
 
 #### 24-Aug-2025 / ESM vs CommonJS og veien videre
