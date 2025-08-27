@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const searchRouter = require('./server')
+const searchRouter = require('./server');
 
 import type { Request, Response } from 'express';
 
