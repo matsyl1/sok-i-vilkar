@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import SearchBar from './components/SearchBar';
+import type { SearchResult } from './types';
 
 const App = () => {
-  const [resMessage, setResMessage] = useState<string>('');
+  const [resMessage, setResMessage] = useState<SearchResult | null>(null);
 
   const handleSearch = async (query: string) => {
     if (!query) {
@@ -12,15 +13,13 @@ const App = () => {
     try {
       const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
       const data = await res.json();
-      setResMessage(data.message);
+      setResMessage(data);
 
     } catch (error) {
       if(error instanceof Error) {
         console.log(error.message);
-        setResMessage('failed to send query to backend');
       } else {
         console.log('unknown error', error);
-        setResMessage('unknown error');
       }
     }
   };
