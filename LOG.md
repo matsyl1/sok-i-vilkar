@@ -5,6 +5,7 @@
  - I første omgang så er fokus ekstrahering av rå tekst, tatt i bruk pdf-parse da det virket som et godt alternativ. Laget en PDF-parser i utils.ts som leser inn PDFen, parser tekst og henter ut dokumentnavn, antall treff på query og en array med alle treff. Tatt i bruk parsing-funksjon i server.ts som sender et utvidet JSON-object til frontend. 
  - Definert types for SearchResult/innkommende JSON-objektet i types.ts.
  - Foreløpig vises kun selve JSON-objektet direkte i frontend med JSON.stringify.
+ - Justert build scripts: frontend /dist kopieres til backend /public med "copy-build-to-backend" og backend "build" flytter også /data med PDF over til /dist. 
 
 #### 26-Aug-2025 / Søk fra frontend og respons fra backend
  - Utvidet frontend med en SearchBar-komponent som er ansvarlig for å håndtere input fra bruker i lokal state. Selve søket/query sendes til parent app.tsx som tar seg av interaksjon med backend. Ved OK/200 respons fra backend så presenteres også selve søket her foreløpig. Har i tillegg lagt til en server proxy i vite.config.ts.
