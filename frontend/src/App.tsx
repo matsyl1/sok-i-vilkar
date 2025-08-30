@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SearchBar from './components/SearchBar';
+import SearchResults from './components/SearchResults';
 import type { SearchResult } from './types';
 
 const App = () => {
@@ -26,7 +27,8 @@ const App = () => {
 
   return (
     <>
-      <SearchBar handleSearch={handleSearch} resMessage={resMessage}/>
+      <SearchBar handleSearch={handleSearch}/>
+      <SearchResults resMessage={resMessage}/>
     </>
   );
 };
