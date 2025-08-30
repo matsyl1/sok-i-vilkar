@@ -1,6 +1,6 @@
 ### Logg
 
-#### 30-Aug-2025 / Søkeord i kontekst og flere PDFer
+#### 30-Aug-2025 / Søkeord i kontekst, flere PDFer og rendering av søkeresultat
  - Vurdert forskjellige måter å vise match av søkeord i en enkel kontekst/snippet. Prøvd f.eks. å utvide regex-logikk med søkeord +/- x antall chars og inkludering av hele linjer. Holder meg til å bare vise hele linjen med tekst der søkeordet matcher foreløpig.
  - Lagt til flere PDFer i /data. 
  - Utvidet utils.ts med en findPdfs-funksjon som henter ut filnavn på alle dokumenter som ligger i /data. Endret i logikken til parsern: looper over alle PDFer, splitter parsed tekst og kjører regex-test per linje. Etter hver loop samles "filename", "count" og "matches" i results ("document" i selve JSON-objektet). Per nå sendes dette til frontend ved søk på f.eks "dekk":
@@ -21,6 +21,7 @@
       ]
     }
     ```
+ - Utvidet frontend med SearchResults-komponent og flyttet alt av rendering over dit. Oppdatert types.ts sånn at SearchResult-type matcher innkommende JSON-objekt fra backend.
 
 #### 27-Aug-2025 / Data, pdf-parse og JSON til frontend
  - Lagt til vilkårsdokument/PDF for Toppkasko bil i backend under /data. 
