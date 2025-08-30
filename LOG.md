@@ -1,5 +1,27 @@
 ### Logg
 
+#### 30-Aug-2025 / Søkeord i kontekst og flere PDFer
+ - Vurdert forskjellige måter å vise match av søkeord i en enkel kontekst/snippet. Prøvd f.eks. å utvide regex-logikk med søkeord +/- x antall chars og inkludering av hele linjer. Holder meg til å bare vise hele linjen med tekst der søkeordet matcher foreløpig.
+ - Lagt til flere PDFer i /data. 
+ - Utvidet utils.ts med en findPdfs-funksjon som henter ut filnavn på alle dokumenter som ligger i /data. Endret i logikken til parsern: looper over alle PDFer, splitter parsed tekst og kjører regex-test per linje. Etter hver loop samles "filename", "count" og "matches" i results ("document" i selve JSON-objektet). Per nå sendes dette til frontend ved søk på f.eks "dekk":
+    ```
+    {
+      "status": "OK",
+      "query": "dekk",
+      "document": [
+        {
+          "filename": "Vilkar_Kasko_Bil.pdf",
+          "count": 2,
+          "matches": [
+            "·ekstra dekk og felger tilsvarende det antall hjul  ",
+            "dekk og felger som ikke er skadd."
+          ]
+        },
+        ...
+      ]
+    }
+    ```
+
 #### 27-Aug-2025 / Data, pdf-parse og JSON til frontend
  - Lagt til vilkårsdokument/PDF for Toppkasko bil i backend under /data. 
  - I første omgang så er fokus ekstrahering av rå tekst, tatt i bruk pdf-parse da det virket som et godt alternativ. Laget en PDF-parser i utils.ts som leser inn PDFen, parser tekst og henter ut dokumentnavn, antall treff på query og en array med alle treff. Tatt i bruk parsing-funksjon i server.ts som sender et utvidet JSON-object til frontend. 
