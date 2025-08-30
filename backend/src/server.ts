@@ -1,5 +1,5 @@
 const express = require('express');
-const pdfParser = require('./utils');
+const { parsePdfs, findPdfs } = require('./utils');
 
 import type { Request, Response } from 'express';
 
@@ -12,13 +12,12 @@ router.get('/search', async (req: Request, res: Response) => {
     return res.status(400).json({ status: 'ERROR', message: 'missing query' });
   }
 
-  const result = await pdfParser(query);
+  const pdfs = findPdfs();
+  const result = await parsePdfs(query, pdfs);
   return res.status(200).json({
     status: 'OK',
-    document: result.filename,
     query: query,
-    nrOfMatches: result.count,
-    matches: result.matches,
+    document: result,
   });
 
 });
