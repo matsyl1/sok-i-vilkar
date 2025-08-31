@@ -14,7 +14,7 @@ const SearchBar = ({ handleSearch }: SearchBarProps) => {
 
   return (
     <div>
-      <h4>Søk i vilkår</h4>
+      <h3>Søk i vilkår</h3>
       <input type="text" value={query} onChange={e => setQuery(e.target.value)}/>
       <button onClick={handleClick}>Søk</button>
     </div>
