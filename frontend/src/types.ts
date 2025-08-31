@@ -5,5 +5,5 @@ export type SearchResult = {
     filename: string;
     count: number;
     matches: string[];
-  };
+  }[];
 };
