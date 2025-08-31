@@ -1,5 +1,9 @@
 ### Logg
 
+#### 31-Aug-2025 / JSON-struktur og conditional rendering i frontend
+ - Korrigert feil i types.ts. Opprinnelig var "document" definert som et objekt. Lagt til [] for å indikerer at dette er en array av objekter.
+ - Justert SearchResults-komponent: (1) tidlig exit hvis innkommende JSON/resMessage er null, (2) bool via .some() for å kontrollere hvis søkeord er match/ikke-match (sånn at !searchMatch/searchMatch kan brukes i conditional rendering), (3) .filter() før .map() for å kun render dokumenter med treff. 
+ 
 #### 30-Aug-2025 / Søkeord i kontekst, flere PDFer og rendering av søkeresultat
  - Vurdert forskjellige måter å vise match av søkeord i en enkel kontekst/snippet. Prøvd f.eks. å utvide regex-logikk med søkeord +/- x antall chars og inkludering av hele linjer. Holder meg til å bare vise hele linjen med tekst der søkeordet matcher foreløpig.
  - Lagt til flere PDFer i /data. 
