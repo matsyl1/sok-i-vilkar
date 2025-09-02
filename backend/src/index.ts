@@ -1,14 +1,16 @@
 const express = require('express');
 const path = require('path');
-const searchRouter = require('./server');
+const searchRouter = require('./routes/search');
+const pdfRouter = require('./routes/pdf');
 
 import type { Request, Response } from 'express';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-//serve søkruter fra server.ts
-app.use('/api', searchRouter);
+//serve søk/pdf-ruter
+app.use('/api/search', searchRouter);
+app.use('/api/pdf', pdfRouter);
 
 // serve statisk fil fra front
 app.use(express.static(path.join(__dirname, '../public')));
