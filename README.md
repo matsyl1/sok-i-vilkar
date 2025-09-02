@@ -4,7 +4,7 @@ Mye rådgivertid går til å svare på spørsmål rundt dekninger/vilkår. Per i
 
 En logg over arbeidet finner du [her](./LOG.md). <br>
 Appen er deployed* på render.com og kan brukes [her](https://sok-i-vilkar.onrender.com/).<br>
-<sub>*_Seneste deploy: 31-Aug-2025 / 5904f7b_</sub>
+<sub>*_Seneste deploy: 02-Sep-2025 / bd9062f_</sub>
 
 
 ## Tech
