@@ -1,4 +1,5 @@
 import type { SearchResult } from '../types';
+import SearchResultItem from './SearchResultItem';
 
 interface SearchResultsProps {
   resMessage: SearchResult | null; //innkommende JSON eller null
@@ -21,16 +22,7 @@ const SearchResults = ({ resMessage }: SearchResultsProps) => {
       {searchMatch && resMessage.document
         .filter(document => document.count > 0)
         .map(document => (
-          <div key={document.filename}>
-            <h4>{document.filename} ({document.count})</h4>
-            <ul>
-              {document.matches.map((match, index) => (
-                <li key={index}>
-                  {match}
-                </li>
-              ))}
-            </ul>
-          </div>
+          <SearchResultItem key={document.filename} document={document}/>
         ))}
       {/* {resMessage && (
         <pre>{JSON.stringify(resMessage, null, 2)}</pre>
