@@ -1,5 +1,11 @@
 ### Logg
 
+#### 02-Sep-2025 / Rendering av PDF og nye komponenter
+ - Undersøkt forskjellige måter å vise PDF-er på. På sikt så virker react-pdf/pdf.js som et bra alternativ med tanke på utheving av søkeresultat. Starter med enkel iframe-tag for å se sånn at alt annet fungerer.
+ - Lagt til get-route i pdf.ts for å hente det relevante dokumentet og splittet routes i separate filer (search.ts og pdf.ts nå i /routes).
+ - Lagt til PdfViewer-komponent som bruker iframe-tag for å render PDF. 
+ - Flyttet rendering av treff per dokument over til ny SearchResultItem-komponent. Også lagt til knapp/bool useState for å vise/skjule PDF-en. 
+
 #### 31-Aug-2025 / JSON-struktur og conditional rendering i frontend
  - Korrigert feil i types.ts. Opprinnelig var "document" definert som et objekt. Lagt til [] for å indikerer at dette er en array av objekter.
  - Justert SearchResults-komponent: (1) tidlig exit hvis innkommende JSON/resMessage er null, (2) bool via .some() for å kontrollere hvis søkeord er match/ikke-match (sånn at !searchMatch/searchMatch kan brukes i conditional rendering), (3) .filter() før .map() for å kun render dokumenter med treff. 
