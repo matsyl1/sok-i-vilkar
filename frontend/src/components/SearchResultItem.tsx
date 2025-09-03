@@ -16,6 +16,7 @@ const SearchResultItem = ({ document }: SearchResultItemProps) => {
   return (
     <div key={document.filename}>
       <h4>{document.filename} ({document.count} treff)</h4>
+      <button onClick={() => setShowPdf(prev => !prev)}>vis/skjul PDF</button>
       <ul>
         {document.matches.map((match, index) => (
           <li key={index}>
@@ -23,7 +24,6 @@ const SearchResultItem = ({ document }: SearchResultItemProps) => {
           </li>
         ))}
       </ul>
-      <button onClick={() => setShowPdf(prev => !prev)}>vis/skjul PDF</button>
       {showPdf &&
       <PdfViewer filename={document.filename} />}
     </div>
