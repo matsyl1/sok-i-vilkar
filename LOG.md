@@ -1,5 +1,10 @@
 ### Logg
 
+#### 03-Sep-2025 / Sortering av søkeresultat og ny visning av PDF
+ - Søkeresultat rangeres nå etter treff per dokument (flest treff først).
+ - Vurdert pdf.js, react-pdf og react-pdf-viewer. Sistnevnte trenger betalt lisens og pdf.js virker unødvendig granular/kompleks med tanke på formål. Tar i bruk react-pdf fremover. 
+ - Initialt react-pdf oppsett fra [her](https://github.com/wojtekmaj/react-pdf/blob/main/sample/next-pages/pages/Sample.tsx) (visning av hele dokumentet) - med noen justeringer: (1) display som "inline-block", liten "height" og "overflowY: auto" for å få opp scrollbar, (2) fjernet visning av antall sider, (3) fjernet visning av text-/annotation-layer.
+
 #### 02-Sep-2025 / Rendering av PDF og nye komponenter
  - Undersøkt forskjellige måter å vise PDF-er på. På sikt så virker react-pdf/pdf.js som et bra alternativ med tanke på utheving av søkeresultat. Starter med enkel iframe-tag for å se sånn at alt annet fungerer.
  - Lagt til get-route i pdf.ts for å hente det relevante dokumentet og splittet routes i separate filer (search.ts og pdf.ts nå i /routes).
