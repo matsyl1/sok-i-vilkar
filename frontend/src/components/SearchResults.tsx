@@ -23,7 +23,7 @@ const SearchResults = ({ resMessage }: SearchResultsProps) => {
         .filter(document => document.count > 0)
         .sort((a, b) => b.count - a.count)
         .map(document => (
-          <SearchResultItem key={document.filename} document={document}/>
+          <SearchResultItem key={document.filename} query={resMessage.query} document={document}/>
         ))}
       {/* {resMessage && (
         <pre>{JSON.stringify(resMessage, null, 2)}</pre>

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import PdfViewer from './PdfViewer';
 
 interface SearchResultItemProps {
+  query: string;
   document: {
     filename: string;
     count: number;
@@ -9,7 +10,7 @@ interface SearchResultItemProps {
   };
 }
 
-const SearchResultItem = ({ document }: SearchResultItemProps) => {
+const SearchResultItem = ({ query, document }: SearchResultItemProps) => {
 
   const [showPdf, setShowPdf] = useState(false);
 
@@ -25,7 +26,7 @@ const SearchResultItem = ({ document }: SearchResultItemProps) => {
         ))}
       </ul>
       {showPdf &&
-      <PdfViewer filename={document.filename} />}
+      <PdfViewer filename={document.filename} query={query} />}
     </div>
   );
 
