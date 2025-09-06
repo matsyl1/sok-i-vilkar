@@ -1,5 +1,6 @@
 import { pdfjs, Document, Page } from 'react-pdf';
 import { useState } from 'react';
+import 'react-pdf/dist/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -7,10 +8,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 interface PdfViewerProps {
+  query: string;
   filename: string;
 }
 
-const PdfViewer = ({ filename }: PdfViewerProps) => {
+const PdfViewer = ({ query, filename }: PdfViewerProps) => {
   const [numPages, setNumPages] = useState<number>();
 
   const onDocumentLoadSuccess = ({ numPages }: { numPages: number }): void => {
@@ -19,6 +21,11 @@ const PdfViewer = ({ filename }: PdfViewerProps) => {
 
   const pdfUrl = `/api/pdf/${filename}`;
 
+  const highlightQueryMatches = ({ str }: { str: string }): string => {
+    const regex = new RegExp(`\\b(${query})\\b`, 'gi');
+    return str.replace(regex, '<mark style="background-color: yellow;">$1</mark>');
+  };
+
   return (
     <div style={{ display: 'inline-block', height: '400px', overflowY: 'auto' }}>
       <Document file={pdfUrl} onLoadSuccess={onDocumentLoadSuccess}>
@@ -26,8 +33,9 @@ const PdfViewer = ({ filename }: PdfViewerProps) => {
           <Page
             key={`page_${index + 1}`}
             pageNumber={index + 1}
-            renderTextLayer={false}
+            renderTextLayer={true}
             renderAnnotationLayer={false}
+            customTextRenderer={highlightQueryMatches}
           />
         ))}
       </Document>
