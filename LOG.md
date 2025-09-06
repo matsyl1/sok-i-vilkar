@@ -1,5 +1,11 @@
 ### Logg
 
+#### 06-Sep-2025 / Highlight av søkeresultat i PDF
+ - En del problemer med å få til highlights av søkeresultat i rendered PDF. Vurdert/testet noen alternativer: (1) Python virker å ha et bra/bedre økosystem for prosessering av PDF-er (via f.eks. PyMuPDF/pypdf) - her med tanken om å la backend generere en tilfeldig/ferdig highlighted PDF som frontend bare kan vise frem, (2) dyke ned i pdf.js-dokumentasjon og prøve å bygge noe fra bunn. Begge to virket som unødvendig komplekse. Fant til slutt "customTextRenderer" i dokumentasjonen til react-pdf ([her](https://github.com/wojtekmaj/react-pdf)) som tillater søk/regex i text-layer og injeksjon av mark-tags (highlights) som vises frem i canvas-layer.
+ - Utvidet PdfViewer-komponent med highlightQueryMatches-funksjon som kjører regex (samme logikk som i backend/utils.ts) på selve søkeordet og erstatter dette med søkeord + highlight i gult. Hvis match er i en del av PDF-en som er i bold font så vil ikke dette vises i samme stil. Ser ikke veldig pent ut, men starter med dette foreløpig. <br>
+  ![06-sep-2025-pdf-highlights.png](./log-images/06-sep-2025-pdf-highlights.png)
+ - Sender også query={resMessage.query} som prop fra SearchResults-komponent videre sånn at søkeordet kan brukes i PdfViewer-komponent. 
+
 #### 03-Sep-2025 / Sortering av søkeresultat og ny visning av PDF
  - Søkeresultat rangeres nå etter treff per dokument (flest treff først).
  - Vurdert pdf.js, react-pdf og react-pdf-viewer. Sistnevnte trenger betalt lisens og pdf.js virker unødvendig granular/kompleks med tanke på formål. Tar i bruk react-pdf fremover. 
