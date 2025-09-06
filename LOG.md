@@ -5,6 +5,7 @@
  - Utvidet PdfViewer-komponent med highlightQueryMatches-funksjon som kjører regex (samme logikk som i backend/utils.ts) på selve søkeordet og erstatter dette med søkeord + highlight i gult. Hvis match er i en del av PDF-en som er i bold font så vil ikke dette vises i samme stil. Ser ikke veldig pent ut, men starter med dette foreløpig. <br>
   ![06-sep-2025-pdf-highlights.png](./log-images/06-sep-2025-pdf-highlights.png)
  - Sender også query={resMessage.query} som prop fra SearchResults-komponent videre sånn at søkeordet kan brukes i PdfViewer-komponent. 
+ - Ny build viser GitHub languages stats som +99% JS. React-pdf dokumentasjon nevner bruk av extern CDN for pdfjs-worker - endret til dette for å ikke inkkludere worker i build (hentes nå ved runtime). GitHub stats vises nå som tidligere. 
 
 #### 03-Sep-2025 / Sortering av søkeresultat og ny visning av PDF
  - Søkeresultat rangeres nå etter treff per dokument (flest treff først).
