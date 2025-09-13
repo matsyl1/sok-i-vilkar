@@ -12,14 +12,9 @@ router.get('/', async (req: Request, res: Response) => {
     return res.status(400).json({ status: 'ERROR', message: 'missing query' });
   }
 
-  const pdfs = findPdfs();
+  const pdfs = await findPdfs();
   const result = await parsePdfs(query, pdfs);
-  return res.status(200).json({
-    status: 'OK',
-    query: query,
-    document: result,
-  });
-
+  return res.status(200).json(result);
 });
 
 module.exports = router;
