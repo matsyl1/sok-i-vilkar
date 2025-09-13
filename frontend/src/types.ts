@@ -1,9 +1,18 @@
 export type SearchResult = {
-  status: string;
   query: string;
-  document: {
+  documents: {
     filename: string;
     count: number;
-    matches: string[];
+    matches: {
+      snippet: string;
+      page: number;
+      queryMatch: string;
+      coords: {
+        x: number;
+        y: number;
+        w: number;
+        h: number;
+      };
+    }[];
   }[];
 };

@@ -11,7 +11,7 @@ const SearchResults = ({ resMessage }: SearchResultsProps) => {
     return null;
   }
 
-  const searchMatch = resMessage.document.some(document => document.count > 0);
+  const searchMatch = resMessage.documents.some(document => document.count > 0);
 
   return (
     <>
@@ -19,11 +19,11 @@ const SearchResults = ({ resMessage }: SearchResultsProps) => {
         <p>{`Finner ikke noen treff på «${resMessage.query}»`}</p>
       )}
 
-      {searchMatch && resMessage.document
+      {searchMatch && resMessage.documents
         .filter(document => document.count > 0)
         .sort((a, b) => b.count - a.count)
         .map(document => (
-          <SearchResultItem key={document.filename} query={resMessage.query} document={document}/>
+          <SearchResultItem key={document.filename} document={document} query={resMessage.query}/>
         ))}
       {/* {resMessage && (
         <pre>{JSON.stringify(resMessage, null, 2)}</pre>
