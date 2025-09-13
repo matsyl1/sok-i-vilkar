@@ -1,5 +1,27 @@
 ### Logg
 
+#### 13-Sep-2025 / Ny PDF-parser og frontend-justeringer
+ - Tatt i bruk pdfjs-dist i backend for å hente ut sidenummer og koordinater på en ryddigere måte.
+ - Dokumentasjon/offisiell repo for pdf.js ([her](https://github.com/mozilla/pdf.js)).
+ - Største forskjellen mellom pdf-parse (brukt tidligere) og pdfjs-dist er i hvordan tekstdata hentes ut. Pdf-parse returnerer et objekt der "text"-property inneholder all tekst på alle sider slått sammen i en string, mens pdfjs-dist fungerer på en side-per-side basis.
+ - Med pdfjs-dist så brukes først "getDocument" for å laste inn en "PDFDocumentLoadingTask" - med await/promise gir dette et "PDFDocumentProxy"-objekt. Når ".getPage(n)" kalles så returneres et "PDFPageProxy"-objekt per side. Deretter kan da ".getTextContent()" brukes for å få tilgang til en array of items.
+ - Etter en del testing - hver PDF er bygget opp der "item.str" ofte representerer en chunk med tekst per linje/tekst per cell i tabell/bullet point/line break/annen formatering. I hver item finnes også bredde/høyde samt en transform-array (der index 4/5 representerer x/y koordinater for startposisjon av tekst). Eksempel på et item-objekt:
+    ```
+    {
+      str: 'Maskinskade dekker tilfeldig og plutselig skade på:',
+      dir: 'ltr',
+      width: 204.58164204000005,
+      height: 9,
+      transform: [ 9, 0, 0, 9, 45.36019999999999, 168.4801 ],
+      fontName: 'g_d2_f2',
+      hasEOL: false
+    }
+    ```
+- Overordnet logikk til parser i utils.ts: (1) for...of loop som tidligere over alle PDF-er, (2) for loop over alle sider fra "numPages" og (3) for...of loop over items-array fra ".getTextContent()". Per nå bygges selve JSON-objektet (returneres som "results") som sendes videre til frontend direkte i parsern. Definert strukturen i types.ts. Litt usikker på om jeg burde splitte dette opp (f.eks. la parsern kun hente ut rå data og strukturere JSON-objektet separat - fikk nåværende løsning til å fungere, så starter med dette).
+- Gjenbruker samme regex-test som tidligere, denne kjøres nå mot "item.str". Dvs - per nå hentes koordinater ikke for selve søkeordet, men for hele linjen med tekst (snippet). Antall treff per dokument hentes opp under "count".
+- Oppdatert frontend-komponenter/types.ts (samme som i backend) for å håndtere ny struktur på innkommende JSON.  
+
+
 #### 08-Sep-2025 / Revurdering av PDF-parser i backend
  - For å bygge videre funksjonalitet som lar brukeren f.eks. trykke på en snippet og deretter vises riktig side med søkeord highlighted så trenger jeg sidenummer per match (også koordinater hvis jeg fremover endrer på hvordan highlight vises). Backend sender per nå ikke dette eller har enkel mulighet for det (via pdf-parse). Har prøvd noen alternativer for å ekstrahere sidenummer i frontend (regex-test på spans for å så finne frem til div som inneholder sidenummer/koordinater). På sikt, ikke en veldig robust måte å løse dette på - blir da avhengig av react-pdf sin rendering av text-layer vs canvas-layer osv. Blir mer ryddig å ta i bruk en pdf-parser i backend som bedre støtter det jeg trenger av data i frontend - her ser pdfjs-dist ut som et bedre alternativ. 
 
