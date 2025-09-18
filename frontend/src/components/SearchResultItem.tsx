@@ -1,14 +1,18 @@
 import type { SearchResult } from '../types';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import PdfViewer from './PdfViewer';
 
 interface SearchResultItemProps {
-  query: string;
   document: SearchResult['documents'][number];
+  query: string;
 }
 
-const SearchResultItem = ({ query, document }: SearchResultItemProps) => {
-  const [showPdf, setShowPdf] = useState(false);
+const SearchResultItem = ({ document, query }: SearchResultItemProps) => {
+  const [showPdf, setShowPdf] = useState<boolean>(false);
+
+  useEffect(() => {
+    setShowPdf(false);
+  },[query]);
 
   return (
     <div key={document.filename}>
@@ -22,7 +26,7 @@ const SearchResultItem = ({ query, document }: SearchResultItemProps) => {
         ))}
       </ul>
       {showPdf &&
-      <PdfViewer filename={document.filename} query={query} />}
+      <PdfViewer document={document} />}
     </div>
   );
 };
