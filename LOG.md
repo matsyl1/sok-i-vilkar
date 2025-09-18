@@ -1,5 +1,15 @@
 ### Logg
 
+#### 18-Sep-2025 / Ny highlight
+ - Byttet ut tidligere løsning for highlight av søketreff (opplevde denne som rotete med tanke på rendering av text-layer i tillegg til canvas-layer).
+ - Nå fungerer highlight slik: (1) hver Page-komponent fra react-pdf er wrapped i en relativ posisjonert div og (2) for hvert match-objekt så plasseres en absolutt posisjonert div på koordinatene for hver treff/snippet.
+ - Justeringer med tanke på PDF/CSS-origo: PDF (x, y) fra nederst venstre og CSS (x, y) fra øverst venstre. Henter først ut høyde for en side (dette er tilgjengelig via "onRenderSuccess" per Page-komponent). Dette brukes videre for å plassere highlight-div riktig med justering av "top".
+ - I JSON fra backend så er ikke sidenummer og koordinater sammen - lagd en funksjon "matchesToHighlight" som returnerer en array med objekter - der hvert objekt inneholder sidenummer og koordinater for hver søketreff som skal utheves. 
+ - Opplevd en del problemer med at appen crasher hvis flere PDF-er vises frem og nytt søk blir gjort. Løst dette ved å legge til en "useEffect" i SearchResultItem-komponent som lytter etter nytt søk/query og lukker visning av alle åpne PDF-er. 
+ - Ved søk på f.eks. "vilkår" så ser highlight slik ut (snippet utheves, ikke bare søkeordet): <br>
+  ![18-sep-2025-pdf-highlights.png](./log-images/18-sep-2025-pdf-highlights.png)
+
+
 #### 13-Sep-2025 / Ny PDF-parser og frontend-justeringer
  - Tatt i bruk pdfjs-dist i backend for å hente ut sidenummer og koordinater på en ryddigere måte.
  - Dokumentasjon/offisiell repo for pdf.js ([her](https://github.com/mozilla/pdf.js)).
