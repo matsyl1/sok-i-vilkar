@@ -1,5 +1,13 @@
 ### Logg
 
+#### 21-Sep-2025 / Frontend og hopp-til-match i PDF
+ - Ny flyt i visning av informasjon: (1) dokumenter med treff vises først og (2) match/PDF vises først når et dokument er valgt. 
+ - Styrer navigasjon ved klikk på dokument (vis/skjul detaljer) og snippet (hopp-til-match). Tatt i bruk en veldig enkel styles.css for styling av knapper og hover-effekt. 
+ - State for å styre visning av detaljer er løftet opp til SearchResults. SearchResultItem bruker props for å vise/skjule detaljer. En del problemer med hopp-til-match i PDF hvis flere dokumenter er åpne på samme gang. Løst dette ved å kun la et dokument om gangen være åpent.  
+ - Lokal state for "jumpToMatch" i SearchResultItem. Ved klikk på snippet sendes en string med sidenummer og x/y-koordinater videre til PdfViewer (id for å finne element).
+ - Lagt til en id-property på samme div som representerer hver highlight sånn at PDF-en kan hoppe til riktig match.
+ - Bruker en "useEffect" som lytter etter nytt klikk på en snippet - da hentes riktig element via id-property og PDF-visning hopper til riktig match via ".scrollIntoView". Hadde opprinnelig tenkt hopp-til-side, men det gir bedre mening å bruke spesifikke koordinater (kan da f.eks. vise frem en mer kompakt PDF og fremdeles få korrekt scroll).
+
 #### 18-Sep-2025 / Ny highlight
  - Byttet ut tidligere løsning for highlight av søketreff (opplevde denne som rotete med tanke på rendering av text-layer i tillegg til canvas-layer).
  - Nå fungerer highlight slik: (1) hver Page-komponent fra react-pdf er wrapped i en relativ posisjonert div og (2) for hvert match-objekt så plasseres en absolutt posisjonert div på koordinatene for hver treff/snippet.
