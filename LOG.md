@@ -1,5 +1,11 @@
 ### Logg
 
+#### 29-Sep-2025 / Alert-komponent, validering av søk og error-handling
+ - Utvidet frontend med Alert-komponent som viser info til bruker ved søk: (1) oppsummering av resultat, (2) melding hvis søk ikke ga noen treff og (3) tilbakemelding hvis søk inneholder ugyldige tegn / er for langt (>15) tegn / gir for mange (>10) treff per dokument (håndteres i backend). Vurdert noen form for pagination, men tenker en begrensning av søk gir best mening. 
+ - Lagt til validering av input/resultat i backend/search-route: sender foreløpig status 400 ved søk utenfor begrensning og kun 200 ved søk som returnerer søkeresultat til frontend. 
+ - Tatt i bruk en middleware for error-handling i backend - denne som veiledning ([her](https://medium.com/codeelevation/how-to-handle-errors-in-node-js-applications-like-a-pro-b9bceedc56c8)).
+ - Fremdeles mye som kan feile - jobber videre med dette fremover. 
+
 #### 21-Sep-2025 / Frontend og hopp-til-match i PDF
  - Ny flyt i visning av informasjon: (1) dokumenter med treff vises først og (2) match/PDF vises først når et dokument er valgt. 
  - Styrer navigasjon ved klikk på dokument (vis/skjul detaljer) og snippet (hopp-til-match). Tatt i bruk en veldig enkel styles.css for styling av knapper og hover-effekt. 
