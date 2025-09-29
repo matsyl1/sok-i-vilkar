@@ -1,6 +1,4 @@
 /*
-findPdfs: return en array of strings (navn på alle PDFer i /data)
-
 parsePdfs: tar imot søkeordet (query) og navnet på alle PDFer fra findPdfs. Bruker 3x loop (PDF-er, sider og items)
 for å hente ut data. Funksjon gir ferdig strukturert JSON-objekt som sendes til frontend via search.ts ved søk.
 */
@@ -8,14 +6,7 @@ for å hente ut data. Funksjon gir ferdig strukturert JSON-objekt som sendes til
 const fs = require('fs');
 const path = require('path');
 const { getDocument } = require('pdfjs-dist/legacy/build/pdf.mjs');
-import type { SearchResult } from './types';
-
-
-const findPdfs = () => {
-  const filePath = path.join(__dirname, '..', 'data');
-  const pdfs = fs.readdirSync(filePath);
-  return pdfs;
-};
+import type { SearchResult } from '../types';
 
 const parsePdfs = async (query: string, pdfs: string[]) => {
 
@@ -25,7 +16,7 @@ const parsePdfs = async (query: string, pdfs: string[]) => {
   };
 
   for (const pdfFile of pdfs) {
-    const filePath = path.join(__dirname, '..', 'data', pdfFile);
+    const filePath = path.resolve(__dirname, '../../data', pdfFile);
     const buffer = fs.readFileSync(filePath);
     const data = await getDocument({ data: new Uint8Array(buffer) }).promise; //PDFDocumentLoadingTask -> PDFDocumentProxy-objekt
     const numPages = data.numPages;
@@ -70,13 +61,4 @@ const parsePdfs = async (query: string, pdfs: string[]) => {
   return results;
 };
 
-// //lokalt test av parser, kjør fra backend root: "npx ts-node src/utils"
-// const run = async () => {
-//   const pdfs = await findPdfs();
-//   const query = 'maskinskade';
-//   const result = await parsePdfs(query, pdfs);
-//   console.log(JSON.stringify(result, null, 2));
-// };
-// run();
-
-module.exports = { parsePdfs, findPdfs };
+module.exports = parsePdfs;
