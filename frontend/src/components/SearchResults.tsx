@@ -17,10 +17,6 @@ const SearchResults = ({ resMessage }: SearchResultsProps) => {
 
   return (
     <>
-      {!searchMatch && (
-        <p>{`Finner ikke noen treff på «${resMessage.query}»`}</p>
-      )}
-
       {searchMatch && resMessage.documents
         .filter(document => document.count > 0)
         .sort((a, b) => b.count - a.count)
