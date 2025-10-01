@@ -6,6 +6,8 @@ for å hente ut data. Funksjon gir ferdig strukturert JSON-objekt som sendes til
 const fs = require('fs');
 const path = require('path');
 const { getDocument } = require('pdfjs-dist/legacy/build/pdf.mjs');
+import type { PDFDocumentProxy } from 'pdfjs-dist';
+import type { TextContent, TextItem } from 'pdfjs-dist/types/src/display/api';
 import type { SearchResult } from '../types';
 
 const parsePdfs = async (query: string, pdfs: string[]) => {
@@ -17,8 +19,17 @@ const parsePdfs = async (query: string, pdfs: string[]) => {
 
   for (const pdfFile of pdfs) {
     const filePath = path.resolve(__dirname, '../../data', pdfFile);
-    const buffer = fs.readFileSync(filePath);
-    const data = await getDocument({ data: new Uint8Array(buffer) }).promise; //PDFDocumentLoadingTask -> PDFDocumentProxy-objekt
+    let data: PDFDocumentProxy;
+
+    try {
+      const buffer = fs.readFileSync(filePath);
+      data = await getDocument({ data: new Uint8Array(buffer) }).promise; //PDFDocumentLoadingTask -> PDFDocumentProxy-objekt
+
+    } catch (err) {
+      console.log(err);
+      throw err;
+    }
+
     const numPages = data.numPages;
     // console.log(data);
 
@@ -32,14 +43,22 @@ const parsePdfs = async (query: string, pdfs: string[]) => {
 
 
     for (let pageNum = 1; pageNum <= numPages; pageNum++) {
-      const page = await data.getPage(pageNum); //PDFPageProxy-objekt per side
-      const textContent = await page.getTextContent();
-      // console.log(textContent);
+      let textContent: TextContent | undefined;
+
+      try {
+        const page = await data.getPage(pageNum); //PDFPageProxy-objekt per side
+        textContent = await page.getTextContent();
+        // console.log(textContent);
+
+      } catch (err) {
+        console.log(err);
+        throw err;
+      }
 
       const search = query.toLowerCase();
       const regex = new RegExp(`\\b${search}\\b`, 'gi'); // "\\b" = kun hele ord, "gi" = hele dokumentet (g) og case insensitive (i)
 
-      for (const item of textContent.items) {
+      for (const item of textContent.items as TextItem[]) {
         // console.log(textContent.items);
         if (regex.test(item.str)) {
           documentData.matches.push({

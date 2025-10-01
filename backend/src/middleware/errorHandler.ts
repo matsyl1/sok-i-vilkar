@@ -10,7 +10,7 @@ const errorHandler: ErrorRequestHandler = (err, _req, res, _next) => {
       stack: err.stack,
     });
   } else {
-    res.status(500).json({ message: 'Noe gikk galt!' });
+    res.status(500).json({ message: 'Noe gikk galt - prøv igjen senere' });
   }
 };
 

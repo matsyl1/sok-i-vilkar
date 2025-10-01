@@ -7,18 +7,14 @@ const path = require('path');
 
 const findPdfs = () => {
   const filepath = path.resolve(__dirname, '../../data');
+
   try {
     const pdfs = fs.readdirSync(filepath);
-    if(pdfs.length === 0) {
-      throw new Error('Finner ikke noen vilkårsdokumenter');
-    }
     return pdfs;
-  } catch (err) {
-    if (err instanceof Error) {
-      throw err;
-    } else {
-      throw new Error('Ukjent feil');
-    }
+
+  } catch (err)  {
+    console.log(err);
+    throw err;
   }
 };
 
