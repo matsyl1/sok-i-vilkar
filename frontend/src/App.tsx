@@ -26,18 +26,16 @@ const App = () => {
     try {
       const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
       const data = await res.json();
+
       if(!res.ok) {
         showAlert(data.message);
-      } else if (data.status === 'OK')  {
+      } else {
         showResult(data, data.message);
       }
 
     } catch (err) {
-      if(err instanceof Error) {
-        showAlert(err.message);
-      } else {
-        showAlert('Ukjent feil');
-      }
+      console.log(err);
+      showAlert('Noe gikk galt - prøv igjen senere');
     }
   };
 
