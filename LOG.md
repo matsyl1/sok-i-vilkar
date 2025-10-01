@@ -1,5 +1,10 @@
 ### Logg
 
+#### 01-Oct-2025 / Error-handling i utils og frontend
+ - Utils-filer (findPdfs og parsePdfs): pakket inn operasjoner som jeg tenker ev. kan feile i try/catch-blokker (fs.readdirSync, fs.readFileSync, getDocument, getPage og getTextContent). Utils-funksjoner kaster feil - fanges opp av search-route ved kall - sendes videre til errorHandler. 
+ - Middleware errorHandler: i dev miljø sendes utvidet info og i prod kun en generisk melding ('Noe gikk galt - prøv igjen senere').
+ - Endringer i frontend/App.tsx: fetch pakket inn i try/catch og ved !ok respons brukes showAlert for å veilede brukeren. Ved ok respons brukes showResult (viser søkeresultat og oppsummering av søket). Ved andre uventede feil i catch-delen så får brukeren samme generiske melding som ovenfor. 
+
 #### 29-Sep-2025 / Alert-komponent, validering av søk og error-handling
  - Utvidet frontend med Alert-komponent som viser info til bruker ved søk: (1) oppsummering av resultat, (2) melding hvis søk ikke ga noen treff og (3) tilbakemelding hvis søk inneholder ugyldige tegn / er for langt (>15) tegn / gir for mange (>10) treff per dokument (håndteres i backend). Vurdert noen form for pagination, men tenker en begrensning av søk gir best mening. 
  - Lagt til validering av input/resultat i backend/search-route: sender foreløpig status 400 ved søk utenfor begrensning og kun 200 ved søk som returnerer søkeresultat til frontend. 
