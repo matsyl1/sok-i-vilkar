@@ -1,5 +1,10 @@
 ### Logg
 
+#### 02-Oct-2025 / Flere PDF-er
+ - Lagt til flere vilkårsdokumenter - samtlige (totalt 32 stk) innenfor skadeforsikring i kategori: "kjøretøy", "reise- og boligforsikringer", "dyreforsikringer" og alle "tilleggsdekninger" ([her](https://www.sparebank1.no/nb/bank/privat/forsikring/forsikringsvilkar.html)).
+ - Søk i deployed app ([her](https://sok-i-vilkar.onrender.com/)) går veldig treigt (>10 sek) før resultat vises. Per nå skjer lesing/parsing av PDF-er sekvensielt - regner med at dette er hoverårsaken, undersøker videre. Samtidig usikker på hva som er å forvente av gratis-versjon av Render.
+ - Hvis treff i mange dokumenter så blir visning fort rotete. Lener mot noen form for søk/visning per kategori. Innhenter feedback på hva som er ønskelig. 
+
 #### 01-Oct-2025 / Error-handling i utils og frontend
  - Utils-filer (findPdfs og parsePdfs): pakket inn operasjoner som jeg tenker ev. kan feile i try/catch-blokker (fs.readdirSync, fs.readFileSync, getDocument, getPage og getTextContent). Utils-funksjoner kaster feil - fanges opp av search-route ved kall - sendes videre til errorHandler. 
  - Middleware errorHandler: i dev miljø sendes utvidet info og i prod kun en generisk melding ('Noe gikk galt - prøv igjen senere').
