@@ -10,7 +10,7 @@ const errorHandler = (err, _req, res, _next) => {
         });
     }
     else {
-        res.status(500).json({ message: 'Noe gikk galt!' });
+        res.status(500).json({ message: 'Noe gikk galt - prøv igjen senere' });
     }
 };
 module.exports = errorHandler;

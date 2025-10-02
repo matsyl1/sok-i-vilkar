@@ -14,8 +14,15 @@ const parsePdfs = async (query, pdfs) => {
     };
     for (const pdfFile of pdfs) {
         const filePath = path.resolve(__dirname, '../../data', pdfFile);
-        const buffer = fs.readFileSync(filePath);
-        const data = await getDocument({ data: new Uint8Array(buffer) }).promise; //PDFDocumentLoadingTask -> PDFDocumentProxy-objekt
+        let data;
+        try {
+            const buffer = fs.readFileSync(filePath);
+            data = await getDocument({ data: new Uint8Array(buffer) }).promise; //PDFDocumentLoadingTask -> PDFDocumentProxy-objekt
+        }
+        catch (err) {
+            console.log(err);
+            throw err;
+        }
         const numPages = data.numPages;
         // console.log(data);
         const documentData = {
@@ -26,9 +33,16 @@ const parsePdfs = async (query, pdfs) => {
         // console.log(documentData);
         results.documents.push(documentData);
         for (let pageNum = 1; pageNum <= numPages; pageNum++) {
-            const page = await data.getPage(pageNum); //PDFPageProxy-objekt per side
-            const textContent = await page.getTextContent();
-            // console.log(textContent);
+            let textContent;
+            try {
+                const page = await data.getPage(pageNum); //PDFPageProxy-objekt per side
+                textContent = await page.getTextContent();
+                // console.log(textContent);
+            }
+            catch (err) {
+                console.log(err);
+                throw err;
+            }
             const search = query.toLowerCase();
             const regex = new RegExp(`\\b${search}\\b`, 'gi'); // "\\b" = kun hele ord, "gi" = hele dokumentet (g) og case insensitive (i)
             for (const item of textContent.items) {
