@@ -1,0 +1,127 @@
+{
+  "filename": "Vilkar_valpeforsikring_hund.pdf",
+  "pages": [
+    {
+      "pageNum": 1,
+      "items": [
+        {
+          "str": "Valpeforsikring",
+          "coords": {
+            "x": 45.3602,
+            "y": 720.72,
+            "w": 87.49178760000001,
+            "h": 12
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 132.8519876,
+            "y": 720.72,
+            "w": 218.74821240000003,
+            "h": 0
+          }
+        },
+        {
+          "str": "Vilkårs id: PBK-231.240-001 av 11.04.2024",
+          "coords": {
+            "x": 351.60020000000003,
+            "y": 720.000078,
+            "w": 198.27977100000004,
+            "h": 10
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.3602,
+            "y": 683.52,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Forsikringen gjelder for valper til forsikret tispe.",
+          "coords": {
+            "x": 45.3602,
+            "y": 683.52,
+            "w": 189.94199999999998,
+            "h": 9
+          }
+        },
+        {
+          "str": "Forsikringen dekker utgifter til behandling hos veterinær som er beskrevet under veterinærutgifter i tispas hundeforsikring.",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 664.5602,
+            "w": 491.38192179000004,
+            "h": 9
+          }
+        },
+        {
+          "str": "Høyeste erstatning er 6 000 kroner per valp, utover tispas forsikringssum. Forsikringen dekker inntil to kull i løpet av tispas liv,",
+          "coords": {
+            "x": 45.36019999999996,
+            "y": 654,
+            "w": 508.90218504,
+            "h": 9
+          }
+        },
+        {
+          "str": "det er en forutsetning at NKKs etiske regler for avl og oppdrett er fulgt.",
+          "coords": {
+            "x": 45.36019999999991,
+            "y": 643.4398,
+            "w": 283.54195871999997,
+            "h": 9
+          }
+        },
+        {
+          "str": "Unntakene under veterinærutgifter gjelder også for valpeforsikringen.",
+          "coords": {
+            "x": 45.36019999999991,
+            "y": 624.48,
+            "w": 277.78166715,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36019999999991,
+            "y": 605.0398,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Opphør av forsikringen",
+          "coords": {
+            "x": 45.36019999999991,
+            "y": 605.0398,
+            "w": 101.01891797999998,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36019999999991,
+            "y": 583.9199,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Valpeforsikringen gjelder fram til dagen valpene overleveres kjøper, men ikke lengre enn til valpene fyller 3 måneder.",
+          "coords": {
+            "x": 45.36019999999991,
+            "y": 583.9199,
+            "w": 470.74198743000005,
+            "h": 9
+          }
+        }
+      ]
+    }
+  ]
+}

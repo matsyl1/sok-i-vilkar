@@ -1,8 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express = require('express');
-const findPdfs = require('../utils/findPdfs');
-const parsePdfs = require('../utils/parsePdfs');
+const parseJson = require('../utils/parseJson');
 const router = express.Router();
 router.get('/', async (req, res, next) => {
     const query = req.query.q;
@@ -14,8 +13,7 @@ router.get('/', async (req, res, next) => {
         return res.status(400).json({ status: 'ALERT', message: 'Søk må være kortere' });
     }
     try {
-        const pdfs = await findPdfs();
-        const result = await parsePdfs(cleanQuery, pdfs);
+        const result = await parseJson(cleanQuery);
         if (result.documents.some(document => document.matches.length > 10)) {
             return res.status(400).json({ status: 'ALERT', message: 'Søk må være mer spesifikt' });
         }

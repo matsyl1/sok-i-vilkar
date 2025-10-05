@@ -5,7 +5,7 @@ const path = require('path');
 const router = express.Router();
 router.get('/:filename', (req, res, next) => {
     const filename = req.params.filename;
-    const filepath = path.resolve(__dirname, '../../data', filename);
+    const filepath = path.resolve(__dirname, '../../data/pdf', filename);
     res.sendFile(filepath, (err) => {
         if (err) {
             next(err);

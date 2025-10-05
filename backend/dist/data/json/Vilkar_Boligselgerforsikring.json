@@ -1,0 +1,2081 @@
+{
+  "filename": "Vilkar_Boligselgerforsikring.pdf",
+  "pages": [
+    {
+      "pageNum": 1,
+      "items": [
+        {
+          "str": "Boligselgerforsikring",
+          "coords": {
+            "x": 45.3602,
+            "y": 724.32,
+            "w": 121.09181363999998,
+            "h": 12
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 166.45201364000002,
+            "y": 724.32,
+            "w": 185.14818636,
+            "h": 0
+          }
+        },
+        {
+          "str": "Vilkårs id: PBK-220.100-004 av 11.06.2024",
+          "coords": {
+            "x": 351.60020000000003,
+            "y": 723.600078,
+            "w": 198.27977100000004,
+            "h": 10
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.3602,
+            "y": 701.52,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "1. Hvem gjelder forsikringen for?",
+          "coords": {
+            "x": 45.3602,
+            "y": 701.52,
+            "w": 143.73883304999998,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.3602,
+            "y": 690.9602,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Forsikringen gjelder for selger av eiendommen som er oppført i forsikringsbeviset.",
+          "coords": {
+            "x": 45.3602,
+            "y": 690.9602,
+            "w": 330.82197522000007,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 671.52,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "2. Hvor gjelder forsikringen?",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 671.52,
+            "w": 124.53883082999998,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 660.9602,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Forsikringen gjelder ved salg av eiendom i Norge.",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 660.9602,
+            "w": 200.50196625000004,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 641.52,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "3. Når gjelder forsikringen?",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 641.52,
+            "w": 119.01891392999998,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 630.9602,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Forsikringen gjelder fra kjøpers overtagelse av eiendommen. Forsikringen dekker også forhold som blir avdekket i perioden",
+          "coords": {
+            "x": 45.36019999999999,
+            "y": 630.9602,
+            "w": 496.76378706000014,
+            "h": 9
+          }
+        },
+        {
+          "str": "mellom budaksept og overtakelse, hvis denne perioden ikke overstiger 12 måneder. Her menes forhold som har oppstått før",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 620.4,
+            "w": 500.0368428599999,
+            "h": 9
+          }
+        },
+        {
+          "str": "budaksept. Nye forhold som oppstår mellom budaksept og overtagelse er ikke dekket av boligselgerforsikringen.",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 609.8398,
+            "w": 452.7419651699999,
+            "h": 9
+          }
+        },
+        {
+          "str": "I de tilfeller selger engasjerer megler kun for å gjennomføre et oppgjør (oppgjørsoppdrag) gjelder forsikringen fra kjøpers",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 590.88,
+            "w": 486.1796525100001,
+            "h": 9
+          }
+        },
+        {
+          "str": "overtagelse av eiendommen. Forsikringen dekker også forhold som blir avdekket i perioden mellom kontraktsinngåelse og",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 580.3198,
+            "w": 492.20405225999997,
+            "h": 9
+          }
+        },
+        {
+          "str": "overtakelse, hvis denne perioden ikke overstiger 12 måneder. Her menes forhold som har oppstått før kontraktsinngåelse.",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 569.76,
+            "w": 491.38179255000017,
+            "h": 9
+          }
+        },
+        {
+          "str": "Nye forhold som oppstår mellom kontraktsinngåelse og overtagelse er ikke dekket av boligselgerforsikringen.",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 559.1998,
+            "w": 439.7819063699999,
+            "h": 9
+          }
+        },
+        {
+          "str": "Forsikringen gjelder så lenge selger er ansvarlig for feil og mangler etter avhendingslova. Forsikringsdekningen opphører",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 540.2396,
+            "w": 487.31683110000006,
+            "h": 9
+          }
+        },
+        {
+          "str": "senest 5 år etter overtakelse.",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 529.6798,
+            "w": 116.74183248000003,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 510.2396,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "4. Hva omfatter forsikringen?",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 510.2396,
+            "w": 127.41891957000001,
+            "h": 9
+          }
+        },
+        {
+          "str": "4.1 Hva omfatter forsikringen?",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 473.7599,
+            "w": 132.45876558,
+            "h": 9
+          }
+        },
+        {
+          "str": "Omfatter",
+          "coords": {
+            "x": 45.36020000000008,
+            "y": 459.8396,
+            "w": 38.54085534,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 83.9010553400001,
+            "y": 459.8396,
+            "w": 219.45914466,
+            "h": 0
+          }
+        },
+        {
+          "str": "Omfatter ikke",
+          "coords": {
+            "x": 303.3602000000001,
+            "y": 459.8396,
+            "w": 59.00398865999989,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 48.2398,
+            "y": 446.4,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 48.2398,
+            "y": 446.4,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 52.3798,
+            "y": 446.4,
+            "w": 10.020200000000003,
+            "h": 0
+          }
+        },
+        {
+          "str": "selgers mangelsansvar etter avhendingslova, med de",
+          "coords": {
+            "x": 62.400000000000006,
+            "y": 446.4,
+            "w": 215.72385740999994,
+            "h": 9
+          }
+        },
+        {
+          "str": "begrensninger som følger av kjøpekontrakten",
+          "coords": {
+            "x": 62.400000000000006,
+            "y": 435.83979999999997,
+            "w": 183.08405358,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 446.4,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 446.4,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 446.4,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "salg mellom ektefeller, slekt i opp- eller nedstigende linje,",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 446.4,
+            "w": 230.9818292699996,
+            "h": 9
+          }
+        },
+        {
+          "str": "foreldre og barn, søsken, eller personer som har eller har",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 435.83979999999997,
+            "w": 230.51696747999952,
+            "h": 9
+          }
+        },
+        {
+          "str": "hatt felles husstand",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 425.28,
+            "w": 78.68404214999997,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 414.71979999999996,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 414.71979999999996,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 414.71979999999996,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "salg til en leietager eller personer som bor eller har bodd",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 414.71979999999996,
+            "w": 228.20372324999965,
+            "h": 9
+          }
+        },
+        {
+          "str": "på eiendommen de siste 12 måneder",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 404.15999999999997,
+            "w": 150.1168273199998,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 393.59979999999996,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 393.59979999999996,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 393.59979999999996,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "når salget skjer i næringsøyemed. Det vil si tilfeller der",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 393.59979999999996,
+            "w": 219.95712368999966,
+            "h": 9
+          }
+        },
+        {
+          "str": "privatpersoner eller foretak har kjøpt eiendommen med",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 383.03959999999995,
+            "w": 222.20399609999953,
+            "h": 9
+          }
+        },
+        {
+          "str": "formål om å tjene penger. Dette inkluderer eiendom kjøpt",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 372.47979999999995,
+            "w": 230.74205300999952,
+            "h": 9
+          }
+        },
+        {
+          "str": "med helt eller delvis profittformål, enten selger driver",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 361.91959999999995,
+            "w": 212.51682056999962,
+            "h": 9
+          }
+        },
+        {
+          "str": "med utvikling, oppussing, omsetning eller utleie av",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 351.35979999999995,
+            "w": 204.17995448999983,
+            "h": 9
+          }
+        },
+        {
+          "str": "eiendommen",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 340.79959999999994,
+            "w": 52.52390577000002,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 330.23939999999993,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 330.23939999999993,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 330.23939999999993,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "ansvar for andre bygninger enn våningshus og/eller",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 330.23939999999993,
+            "w": 207.4769567999994,
+            "h": 9
+          }
+        },
+        {
+          "str": "kårbolig (inkl. eventuell garasje) ved salg av",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 319.6791999999999,
+            "w": 177.29989397999972,
+            "h": 9
+          }
+        },
+        {
+          "str": "landbrukseiendom eller småbruk",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 309.1189999999999,
+            "w": 131.94012239999984,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 298.5591999999999,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 298.5591999999999,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 298.5591999999999,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "ansvar for bygninger på utmarks- eller setereiendom.",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 298.5591999999999,
+            "w": 214.18199999999956,
+            "h": 9
+          }
+        },
+        {
+          "str": "Likevel dekkes bygninger brukt som ren fritidsbolig",
+          "coords": {
+            "x": 317.5198000000001,
+            "y": 287.9989999999999,
+            "w": 204.68389418999968,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36000000000007,
+            "y": 277.4387999999999,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36000000000007,
+            "y": 277.4387999999999,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.50000000000006,
+            "y": 277.4387999999999,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "ansvar for tomt og/eller rettigheter som ikke tilhører",
+          "coords": {
+            "x": 317.5198000000001,
+            "y": 277.4387999999999,
+            "w": 207.47689649999964,
+            "h": 9
+          }
+        },
+        {
+          "str": "våningshus/og eller kårbolig ved salg av",
+          "coords": {
+            "x": 317.5198000000001,
+            "y": 266.8789999999999,
+            "w": 161.94014585999963,
+            "h": 9
+          }
+        },
+        {
+          "str": "landbrukseiendom eller småbruk",
+          "coords": {
+            "x": 317.5198000000001,
+            "y": 256.3187999999999,
+            "w": 131.94012239999984,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36000000000007,
+            "y": 245.7589999999999,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36000000000007,
+            "y": 245.7589999999999,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.50000000000006,
+            "y": 245.7589999999999,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "ansvar for bygning der mer enn 50 % av arealet benyttes",
+          "coords": {
+            "x": 317.5198000000001,
+            "y": 245.7589999999999,
+            "w": 229.6196804999995,
+            "h": 9
+          }
+        },
+        {
+          "str": "i næring",
+          "coords": {
+            "x": 317.51980000000015,
+            "y": 235.1987999999999,
+            "w": 33.32391857999997,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.3602,
+            "y": 218.4,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "4.2 Hva dekker forsikringen?",
+          "coords": {
+            "x": 45.3602,
+            "y": 218.4,
+            "w": 124.77868470000001,
+            "h": 9
+          }
+        },
+        {
+          "str": "Dekker",
+          "coords": {
+            "x": 45.3602,
+            "y": 204.4801,
+            "w": 30.140854470000015,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 75.50105447000001,
+            "y": 204.4801,
+            "w": 227.85914553,
+            "h": 0
+          }
+        },
+        {
+          "str": "Dekkes ikke",
+          "coords": {
+            "x": 303.3602,
+            "y": 204.4801,
+            "w": 52.043815439999854,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 48.2398,
+            "y": 191.04,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 48.2398,
+            "y": 191.04,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 52.3798,
+            "y": 191.04,
+            "w": 10.020200000000003,
+            "h": 0
+          }
+        },
+        {
+          "str": "selgers ansvar for feil og mangler i henhold til",
+          "coords": {
+            "x": 62.400000000000006,
+            "y": 191.04,
+            "w": 184.39795998000014,
+            "h": 9
+          }
+        },
+        {
+          "str": "avhendingsloven",
+          "coords": {
+            "x": 62.400000000000006,
+            "y": 180.4802,
+            "w": 67.88408417999999,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 191.04,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 191.04,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 191.04,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "ansvar for forhold selger har påtatt seg å utbedre i en",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 191.04,
+            "w": 215.24399669999946,
+            "h": 9
+          }
+        },
+        {
+          "str": "skriftlig eller muntlig avtale med kjøper",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 180.4802,
+            "w": 156.35707424999998,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 169.92,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 169.92,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 169.92,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "ansvar som alene bygger på garanti eller lovnader gitt av",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 169.92,
+            "w": 230.09991548999955,
+            "h": 9
+          }
+        },
+        {
+          "str": "boligselger",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 159.3602,
+            "w": 43.79698322999998,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 148.79999999999998,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 148.79999999999998,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 148.79999999999998,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "krav som gjelder manglende rydding eller rengjøring av",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 148.79999999999998,
+            "w": 222.9000726899995,
+            "h": 9
+          }
+        },
+        {
+          "str": "eiendommen",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 138.23979999999997,
+            "w": 52.52390577000002,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 127.67999999999998,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 127.67999999999998,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 127.67999999999998,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "krav knyttet til at tilbehør som skal følge med",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 127.67999999999998,
+            "w": 182.12375600999988,
+            "h": 9
+          }
+        },
+        {
+          "str": "eiendommen ikke er med",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 117.12019999999998,
+            "w": 102.20397120000001,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 106.56039999999999,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 106.56039999999999,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 106.56039999999999,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "nye skader eller forhold som inntreffer i perioden mellom",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 106.56039999999999,
+            "w": 228.05705288999948,
+            "h": 9
+          }
+        },
+        {
+          "str": "budaksept og kjøpers overtakelse",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 96.00019999999999,
+            "w": 135.80392472999986,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.36,
+            "y": 85.44,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.36,
+            "y": 85.44,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.5,
+            "y": 85.44,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "verditap som følge av insekter/skadedyr,",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 85.44,
+            "w": 163.7819774999999,
+            "h": 9
+          }
+        },
+        {
+          "str": "skjeggkre/perlekre, veggdyr, pelsbiller, maur, borebiller,",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 74.8802,
+            "w": 224.02182098999958,
+            "h": 9
+          }
+        },
+        {
+          "str": "mus, rotter og tilsvarende. Krav på utbedringskostnader",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 64.32000000000001,
+            "w": 224.99706647999952,
+            "h": 9
+          }
+        },
+        {
+          "str": "er likevel dekket",
+          "coords": {
+            "x": 317.51980000000003,
+            "y": 53.76020000000001,
+            "w": 64.66213917000005,
+            "h": 9
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 2,
+      "items": [
+        {
+          "str": "5. Forsikringssum",
+          "coords": {
+            "x": 45.3602,
+            "y": 674.16,
+            "w": 78.56075996999999,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.3602,
+            "y": 663.5998,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Selskapets ansvar er begrenset til eiendommens salgssum, men ikke høyere enn forsikringssummen som står i",
+          "coords": {
+            "x": 45.3602,
+            "y": 663.5998,
+            "w": 450.5577426,
+            "h": 9
+          }
+        },
+        {
+          "str": "forsikringsbeviset. Forsikringssummen gjelder også som begrensning i et eventuelt hevingsoppgjør. Det vil si når kjøper",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 653.0396,
+            "w": 482.9969436299998,
+            "h": 9
+          }
+        },
+        {
+          "str": "ønsker å annullere kjøpet. Alle kjøpers krav mot selger blir regnet som ett forsikringstilfelle.",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 642.4798,
+            "w": 367.3021209000002,
+            "h": 9
+          }
+        },
+        {
+          "str": "Utover dette dekkes:",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 623.5196,
+            "w": 82.66176863999999,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 604.5598,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.36020000000002,
+            "y": 604.5598,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.50020000000002,
+            "y": 604.5598,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "forholdsmessige sakskostnader i rettslige prosesser.",
+          "coords": {
+            "x": 59.520000000000024,
+            "y": 604.5598,
+            "w": 211.78199999999995,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.360000000000014,
+            "y": 593.9996,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.360000000000014,
+            "y": 593.9996,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.500000000000014,
+            "y": 593.9996,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "påløpte forsinkelsesrenter av forsikringsutbetalingen i henhold til forsinkelsesrenteloven.",
+          "coords": {
+            "x": 59.51980000000002,
+            "y": 593.9996,
+            "w": 355.06201824000004,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 563.9996,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "6. Behandling av krav til boligselgerforsikringen",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 563.9996,
+            "w": 209.01887856,
+            "h": 9
+          }
+        },
+        {
+          "str": "6.1 Selgers plikter ved skadetilfelle",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 544.5598,
+            "w": 151.88365745100012,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 533.9996,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Blir det meldt krav til selger, eller det kan ventes at krav vil bli meldt, må selskapet få beskjed uten ugrunnet opphold, jf. fal §§",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 533.9996,
+            "w": 507.5636730600001,
+            "h": 9
+          }
+        },
+        {
+          "str": "4-10 jf. 8-5.",
+          "coords": {
+            "x": 45.359800000000064,
+            "y": 523.4394,
+            "w": 46.661775119999994,
+            "h": 9
+          }
+        },
+        {
+          "str": "Selskapet er fri for ansvar hvis sikrede ikke melder kravet til selskapet innen ett år etter at selger fikk kunnskap om de forhold",
+          "coords": {
+            "x": 45.359800000000064,
+            "y": 504.4796,
+            "w": 504.92414205,
+            "h": 9
+          }
+        },
+        {
+          "str": "som kravet bygger på, og kravet faller inn under forsikringen, jf. fal § 8-5 (1).",
+          "coords": {
+            "x": 45.359800000000064,
+            "y": 493.9194,
+            "w": 308.74181766,
+            "h": 9
+          }
+        },
+        {
+          "str": "Når krav er fremsatt mot selger eller direkte mot selskapet, plikter sikrede for egen regning å:",
+          "coords": {
+            "x": 45.359800000000064,
+            "y": 474.9596,
+            "w": 375.2220852300002,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.359800000000064,
+            "y": 453.83930000000004,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.359800000000064,
+            "y": 453.83930000000004,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.499800000000064,
+            "y": 453.83930000000004,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "gi selskapet de opplysninger og dokumenter som er tilgjengelige for sikrede.",
+          "coords": {
+            "x": 59.51960000000007,
+            "y": 453.83930000000004,
+            "w": 307.0620493800001,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35960000000006,
+            "y": 443.27950000000004,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.35960000000006,
+            "y": 443.27950000000004,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.49960000000006,
+            "y": 443.27950000000004,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "utføre de undersøkelser og utredninger selskapet mener er nødvendig.",
+          "coords": {
+            "x": 59.51940000000006,
+            "y": 443.27950000000004,
+            "w": 284.26197075000005,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35940000000008,
+            "y": 432.71930000000003,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.35940000000008,
+            "y": 432.71930000000003,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.49940000000008,
+            "y": 432.71930000000003,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "møte ved forhandlinger eller rettergang.",
+          "coords": {
+            "x": 59.51920000000008,
+            "y": 432.71930000000003,
+            "w": 159.9421930200001,
+            "h": 9
+          }
+        },
+        {
+          "str": "Sikrede må ikke innrømme ansvar eller forhandle om kravet uten selskapets samtykke.",
+          "coords": {
+            "x": 45.35940000000008,
+            "y": 412.31930000000006,
+            "w": 351.46187604000016,
+            "h": 9
+          }
+        },
+        {
+          "str": "Hvis selskapet krever det, plikter selger å akseptere at eiendommen overføres til selskapet. Dette gjelder tilfeller der kjøper har",
+          "coords": {
+            "x": 45.35940000000011,
+            "y": 393.3595,
+            "w": 509.39701167000027,
+            "h": 9
+          }
+        },
+        {
+          "str": "rett til å heve kjøpet.",
+          "coords": {
+            "x": 45.35940000000011,
+            "y": 382.7993,
+            "w": 82.18168641,
+            "h": 9
+          }
+        },
+        {
+          "str": "Ved selskapets restitusjon av kjøpesummen, overtar selskapet eiendomsretten til eiendommen. Selskapet står fritt til å gjøre",
+          "coords": {
+            "x": 45.35940000000011,
+            "y": 363.83950000000004,
+            "w": 501.5636607900001,
+            "h": 9
+          }
+        },
+        {
+          "str": "eventuelle utbedringer og gjennomføre videresalg av eiendommen.",
+          "coords": {
+            "x": 45.35940000000005,
+            "y": 353.27970000000005,
+            "w": 269.62197846,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35940000000002,
+            "y": 333.83950000000004,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "6.2 Selskapets rett ved reklamasjon",
+          "coords": {
+            "x": 45.35940000000002,
+            "y": 333.83950000000004,
+            "w": 154.77866594100004,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35940000000002,
+            "y": 323.27970000000005,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Når et krav er omfattet av forsikringen, har selskapet rett til å:",
+          "coords": {
+            "x": 45.35940000000002,
+            "y": 323.27970000000005,
+            "w": 248.26198068000005,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35940000000002,
+            "y": 302.1598,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.35940000000002,
+            "y": 302.1598,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.49940000000002,
+            "y": 302.1598,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "behandle kravet, blant annet utrede om det foreligger mangelsansvar.",
+          "coords": {
+            "x": 59.519200000000026,
+            "y": 302.1598,
+            "w": 281.1420568499999,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.359200000000044,
+            "y": 291.5996,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.359200000000044,
+            "y": 291.5996,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.499200000000044,
+            "y": 291.5996,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "forhandle og om nødvendig å prosedere saken for domstolene.",
+          "coords": {
+            "x": 59.51900000000005,
+            "y": 291.5996,
+            "w": 254.02182885,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 281.0394,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 281.0394,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.49900000000004,
+            "y": 281.0394,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "ha all dialog med kravstiller",
+          "coords": {
+            "x": 59.51880000000004,
+            "y": 281.0394,
+            "w": 110.99700063000007,
+            "h": 9
+          }
+        },
+        {
+          "str": "Selskapet betaler nødvendige sakskostnader, selv om forsikringssummen skulle overskrides. Som nødvendige sakskostnader",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 260.6394,
+            "w": 507.4768878900003,
+            "h": 9
+          }
+        },
+        {
+          "str": "regnes sakkyndig bistand som er valgt eller godkjent av selskapet.",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 250.07960000000003,
+            "w": 267.70205475,
+            "h": 9
+          }
+        },
+        {
+          "str": "Selskapet dekker kun sakskostnader som er direkte relatert til forsikringsdekningen. Tilsvarende har selskapet krav på tilkjente",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 231.11940000000004,
+            "w": 509.96378679000014,
+            "h": 9
+          }
+        },
+        {
+          "str": "sakskostnader som knytter seg til forsikringsdekningen.",
+          "coords": {
+            "x": 45.359000000000094,
+            "y": 220.55960000000005,
+            "w": 224.02206647999992,
+            "h": 9
+          }
+        },
+        {
+          "str": "Hvis selskapet er villig til å forlike saken eller stille forsikringssummen til disposisjon, blir ikke sakskostnader som senere",
+          "coords": {
+            "x": 45.359000000000094,
+            "y": 201.59940000000006,
+            "w": 487.16381232000015,
+            "h": 9
+          }
+        },
+        {
+          "str": "påløper erstattet utover det som er fastsatt.",
+          "coords": {
+            "x": 45.359000000000094,
+            "y": 191.03920000000005,
+            "w": 174.82188573000002,
+            "h": 9
+          }
+        },
+        {
+          "str": "Selskapet har rett til å utbetale ethvert oppgjør direkte til kjøper. Hvis krav rettes direkte mot selskapet, skal selskapet varsle",
+          "coords": {
+            "x": 45.359000000000094,
+            "y": 172.07940000000005,
+            "w": 500.8438628700002,
+            "h": 9
+          }
+        },
+        {
+          "str": "sikrede uten ugrunnet opphold og holde sikrede orientert om den videre behandling av kravet. Selskapets innrømmelse",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 161.51920000000004,
+            "w": 479.96374647000005,
+            "h": 9
+          }
+        },
+        {
+          "str": "overfor kjøper binder ikke selger.",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 150.95940000000004,
+            "w": 132.3418370400001,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 131.51920000000004,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "7.",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 131.51920000000004,
+            "w": 7.541842860000003,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 52.90084286000004,
+            "y": 131.51920000000004,
+            "w": 5.417917200000005,
+            "h": 0
+          }
+        },
+        {
+          "str": "Regress",
+          "coords": {
+            "x": 58.318760060000045,
+            "y": 131.51920000000004,
+            "w": 35.72393130000002,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 120.95940000000004,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Med regress menes rett til å kreve erstatning fra den som er ansvarlig for forholdet.",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 120.95940000000004,
+            "w": 335.14187549999997,
+            "h": 9
+          }
+        },
+        {
+          "str": "Hvis selger kan forlange at tredjepart erstatter tapet,overtar selskapet selgers rett mot tredjepart. Selger skal gjøre det som er",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 101.99920000000004,
+            "w": 505.5569697960002,
+            "h": 9
+          }
+        },
+        {
+          "str": "nødvendig for å sikre kravet mot tredjepart inntil selskapet selv kan ivareta sine rettigheter.",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 91.43900000000005,
+            "w": 365.6219378700002,
+            "h": 9
+          }
+        },
+        {
+          "str": "Regress er begrenset til følgende forhold, jf. fal §§ 4-1, 4-2, 4-9, 4-10, 8-1 og 8-5:",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 72.47920000000005,
+            "w": 328.1817777299999,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 53.51900000000005,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 53.51900000000005,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.49900000000004,
+            "y": 53.51900000000005,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "der selger har misligholdt opplysningsplikten",
+          "coords": {
+            "x": 59.51880000000004,
+            "y": 53.51900000000005,
+            "w": 179.7239006100001,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 42.95920000000005,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.35900000000004,
+            "y": 42.95920000000005,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.49900000000004,
+            "y": 42.95920000000005,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "der selger har kjøpt forsikring i strid med forsikringsvilkårene",
+          "coords": {
+            "x": 59.51880000000004,
+            "y": 42.95920000000005,
+            "w": 245.00383376999986,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.35890000000006,
+            "y": 738.7192,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.35890000000006,
+            "y": 738.7192,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.49890000000005,
+            "y": 738.7192,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "utgifter til advokatbistand dersom selger ønsker å benytte",
+          "coords": {
+            "x": 317.5187000000001,
+            "y": 738.7192,
+            "w": 232.28390714999952,
+            "h": 9
+          }
+        },
+        {
+          "str": "egen advokat",
+          "coords": {
+            "x": 317.5187,
+            "y": 728.1594,
+            "w": 54.10196747999988,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 303.3589,
+            "y": 717.5992,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 303.3589,
+            "y": 717.5992,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 307.4989,
+            "y": 717.5992,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "rådgivning og/eller bistand til selgers krav om",
+          "coords": {
+            "x": 317.5187,
+            "y": 717.5992,
+            "w": 183.17697056999972,
+            "h": 9
+          }
+        },
+        {
+          "str": "fristillelse/inndrivelse av utestående oppgjør når kjøper",
+          "coords": {
+            "x": 317.5187,
+            "y": 707.0394,
+            "w": 220.43704910999946,
+            "h": 9
+          }
+        },
+        {
+          "str": "har tilbakeholdt hele eller deler av kjøpesummen",
+          "coords": {
+            "x": 317.51869999999997,
+            "y": 696.4796,
+            "w": 196.04405060999989,
+            "h": 9
+          }
+        }
+      ]
+    },
+    {
+      "pageNum": 3,
+      "items": [
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.3602,
+            "y": 755.76,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.5002,
+            "y": 755.76,
+            "w": 10.019799999999996,
+            "h": 0
+          }
+        },
+        {
+          "str": "der selger har oversittet fristen for å gi melding om forsikringstilfellet",
+          "coords": {
+            "x": 59.519999999999996,
+            "y": 755.76,
+            "w": 275.14230417,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.360000000000014,
+            "y": 745.1998,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.360000000000014,
+            "y": 745.1998,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.500000000000014,
+            "y": 745.1998,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "der selger ikke har oppfylt sine plikter etter vilkårenes punkt 6.1",
+          "coords": {
+            "x": 59.51980000000002,
+            "y": 745.1998,
+            "w": 255.0838093799999,
+            "h": 9
+          }
+        },
+        {
+          "str": "En eventuell utbetaling til kjøper vil ikke påvirkes av selskapets regressmulighet.",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 724.0799,
+            "w": 323.62196049000016,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 704.6397,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "8.",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 704.6397,
+            "w": 7.541842860000003,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 52.90164286000004,
+            "y": 704.6397,
+            "w": 5.417917200000005,
+            "h": 0
+          }
+        },
+        {
+          "str": "Klagemuligheter",
+          "coords": {
+            "x": 58.31956006000004,
+            "y": 704.6397,
+            "w": 71.66115567,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 694.0799,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Både kjøper og selger kan klage på Fremtinds behandling av et innmeldt forsikringstilfelle. Klageskjema er tilgjengelig på",
+          "coords": {
+            "x": 45.359800000000035,
+            "y": 694.0799,
+            "w": 487.64387004000014,
+            "h": 9
+          }
+        },
+        {
+          "str": "www.fremtind.no/klage. Partene kan også klage til Finansklagenemnda eller bringe saken inn for domstolene.",
+          "coords": {
+            "x": 45.359800000000064,
+            "y": 683.5197,
+            "w": 441.70222269,
+            "h": 9
+          }
+        },
+        {
+          "str": "Hvis selskapet avslår forsikringsdekning for selger og selger ønsker å klage på avslaget, må selger senest innen seks",
+          "coords": {
+            "x": 45.35980000000012,
+            "y": 664.5599,
+            "w": 473.93989227,
+            "h": 9
+          }
+        },
+        {
+          "str": "måneder fra hen mottok vilkårsavslaget klage til et av de nevnte klageorganene, jf. fal § 8-5. En eventuell forsikringsdekning",
+          "coords": {
+            "x": 45.35980000000012,
+            "y": 653.9997,
+            "w": 500.1240065100001,
+            "h": 9
+          }
+        },
+        {
+          "str": "faller bort hvis selger ikke klager innen fristen.",
+          "coords": {
+            "x": 45.35980000000012,
+            "y": 643.4395,
+            "w": 185.38166529000006,
+            "h": 9
+          }
+        }
+      ]
+    }
+  ]
+}

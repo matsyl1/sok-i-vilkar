@@ -1,0 +1,433 @@
+{
+  "filename": "Vilkar_dod_tap_tyveri_katt.pdf",
+  "pages": [
+    {
+      "pageNum": 1,
+      "items": [
+        {
+          "str": "Død/tap katt",
+          "coords": {
+            "x": 45.3602,
+            "y": 720.72,
+            "w": 69.99600983999997,
+            "h": 12
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 115.35620983999996,
+            "y": 720.72,
+            "w": 236.24399016000007,
+            "h": 0
+          }
+        },
+        {
+          "str": "Vilkårs id: PBK-231.310-002 av 07.08.2025",
+          "coords": {
+            "x": 351.60020000000003,
+            "y": 720.000078,
+            "w": 198.27977100000004,
+            "h": 10
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 42.4801,
+            "y": 575.04,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Erstatningsregler",
+          "coords": {
+            "x": 42.4801,
+            "y": 575.04,
+            "w": 75.50101142999999,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 42.4801,
+            "y": 545.5201,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Vi beregner erstatningen ved død/forsvunnet katt til hva det på skadedagen koster å kjøpe en tilsvarende katt, begrenset til",
+          "coords": {
+            "x": 42.4801,
+            "y": 545.5201,
+            "w": 494.23785519000006,
+            "h": 9
+          }
+        },
+        {
+          "str": "forsikringssummen som kommer frem av forsikringsbeviset.",
+          "coords": {
+            "x": 42.48009999999999,
+            "y": 534.9603,
+            "w": 242.50215297,
+            "h": 9
+          }
+        },
+        {
+          "str": "Vi trekker et aldersfradrag (20 prosent per år) av den totale erstatningen. Dette skjer ved hovedforfall etter at katten har fylt 7",
+          "coords": {
+            "x": 42.48010000000002,
+            "y": 516.0001,
+            "w": 502.2840684900002,
+            "h": 9
+          }
+        },
+        {
+          "str": "år.",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 505.43989999999997,
+            "w": 10.661764860000007,
+            "h": 9
+          }
+        },
+        {
+          "str": "Forsikringssummen blir ikke satt lavere enn 1 500 kroner.",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 486.4801,
+            "w": 232.42191588000003,
+            "h": 9
+          }
+        },
+        {
+          "str": "Stjålet/forsvunnet katt skal meldes til politiet og etterlyses ved annonsering. Erstatningen utbetales tidligst 3 måneder etter at",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 467.5199,
+            "w": 503.14172880000024,
+            "h": 9
+          }
+        },
+        {
+          "str": "hendelsen er meldt til oss og politiet.",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 456.9601,
+            "w": 147.9418330500001,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 437.5199,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Opphør av forsikringen",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 437.5199,
+            "w": 101.01891798,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 408,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Dekningen for død og tyveri/ forsvunnet katt opphører automatisk ved hovedforfall etter katten har fylt 12 år.",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 408,
+            "w": 435.2221184699999,
+            "h": 9
+          }
+        },
+        {
+          "str": "Forsikringen opphører hvis katten dør, bytter eier eller ved oppsigelse.",
+          "coords": {
+            "x": 42.48010000000005,
+            "y": 389.0398,
+            "w": 282.8218914599999,
+            "h": 9
+          }
+        },
+        {
+          "str": "Forsikringen gjelder for katten som er navngitt i forsikringsbeviset inntil valgt forsikringssum.",
+          "coords": {
+            "x": 45.360100000000045,
+            "y": 680.6398,
+            "w": 372.82194408,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.360100000000045,
+            "y": 655.6800000000001,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "Dekker",
+          "coords": {
+            "x": 45.360100000000045,
+            "y": 655.6800000000001,
+            "w": 30.140854470000015,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 75.50095447000007,
+            "y": 655.6800000000001,
+            "w": 224.97914552999998,
+            "h": 0
+          }
+        },
+        {
+          "str": "Dekker ikke",
+          "coords": {
+            "x": 300.48010000000005,
+            "y": 655.6800000000001,
+            "w": 50.60397563999988,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.3602,
+            "y": 642.24,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.3602,
+            "y": 642.24,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.5002,
+            "y": 642.24,
+            "w": 10.019799999999996,
+            "h": 0
+          }
+        },
+        {
+          "str": "kattens verdi hvis katten dør eller må avlives i",
+          "coords": {
+            "x": 59.519999999999996,
+            "y": 642.24,
+            "w": 184.63820724,
+            "h": 9
+          }
+        },
+        {
+          "str": "forsikringstiden som følge av ulykke eller sykdom som er",
+          "coords": {
+            "x": 59.519999999999996,
+            "y": 631.6802,
+            "w": 229.79699319000005,
+            "h": 9
+          }
+        },
+        {
+          "str": "dekket i forsikringen for veterinærutgifter.",
+          "coords": {
+            "x": 59.52000000000001,
+            "y": 621.12,
+            "w": 166.1820542100001,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.360200000000006,
+            "y": 610.5602,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.360200000000006,
+            "y": 610.5602,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.50020000000001,
+            "y": 610.5602,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "forsvinning",
+          "coords": {
+            "x": 59.52000000000001,
+            "y": 610.5602,
+            "w": 44.364170699999995,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 45.360200000000006,
+            "y": 600,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 45.360200000000006,
+            "y": 600,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 49.50020000000001,
+            "y": 600,
+            "w": 10.019800000000004,
+            "h": 0
+          }
+        },
+        {
+          "str": "tyveri",
+          "coords": {
+            "x": 59.52000000000001,
+            "y": 600,
+            "w": 21.678081840000004,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 300.48,
+            "y": 642.2398000000001,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 300.48,
+            "y": 642.2398000000001,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 304.62,
+            "y": 642.2398000000001,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "stjålet/forsvunnet katt som ikke er meldt til politiet eller",
+          "coords": {
+            "x": 314.63980000000004,
+            "y": 642.2398000000001,
+            "w": 219.71714789999956,
+            "h": 9
+          }
+        },
+        {
+          "str": "etterlyst ved annonsering.",
+          "coords": {
+            "x": 314.63980000000004,
+            "y": 631.6800000000001,
+            "w": 104.02226819999996,
+            "h": 9
+          }
+        },
+        {
+          "str": "",
+          "coords": {
+            "x": 300.48,
+            "y": 621.1198,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "str": "·",
+          "coords": {
+            "x": 300.48,
+            "y": 621.1198,
+            "w": 4.140000000000001,
+            "h": 9
+          }
+        },
+        {
+          "str": " ",
+          "coords": {
+            "x": 304.62,
+            "y": 621.1198,
+            "w": 10.019800000000032,
+            "h": 0
+          }
+        },
+        {
+          "str": "sykdommer/lidelser og kostnader som ikke er dekket i",
+          "coords": {
+            "x": 314.63980000000004,
+            "y": 621.1198,
+            "w": 217.2779999999996,
+            "h": 9
+          }
+        },
+        {
+          "str": "forsikringen for veterinærutgifter.",
+          "coords": {
+            "x": 314.63980000000004,
+            "y": 610.5600000000001,
+            "w": 132.34217553000008,
+            "h": 9
+          }
+        }
+      ]
+    }
+  ]
+}
