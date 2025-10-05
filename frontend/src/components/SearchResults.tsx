@@ -3,7 +3,7 @@ import type { SearchResult } from '../types';
 import SearchResultItem from './SearchResultItem';
 
 interface SearchResultsProps {
-  resMessage: SearchResult | null; //innkommende JSON eller null
+  resMessage: SearchResult | null;
 }
 
 const SearchResults = ({ resMessage }: SearchResultsProps) => {
@@ -13,12 +13,9 @@ const SearchResults = ({ resMessage }: SearchResultsProps) => {
     return null;
   }
 
-  const searchMatch = resMessage.documents.some(document => document.count > 0);
-
   return (
     <>
-      {searchMatch && resMessage.documents
-        .filter(document => document.count > 0)
+      {resMessage.documents
         .sort((a, b) => b.count - a.count)
         .map(document => (
           <SearchResultItem key={document.filename} document={document} query={resMessage.query}
