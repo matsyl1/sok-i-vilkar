@@ -1,6 +1,5 @@
 const express = require('express');
-const findPdfs = require('../utils/findPdfs');
-const parsePdfs = require('../utils/parsePdfs');
+const parseJson = require('../utils/parseJson');
 
 import type { Request, Response, NextFunction } from 'express';
 import { SearchResult } from '../types';
@@ -20,8 +19,7 @@ router.get('/', async (req: Request, res: Response, next: NextFunction ) => {
   }
 
   try {
-    const pdfs = await findPdfs();
-    const result: SearchResult = await parsePdfs(cleanQuery, pdfs);
+    const result: SearchResult = await parseJson(cleanQuery);
 
     if(result.documents.some(document => document.matches.length > 10)) {
       return res.status(400).json({ status: 'ALERT', message: 'Søk må være mer spesifikt' });

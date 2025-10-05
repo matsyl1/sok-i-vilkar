@@ -7,7 +7,8 @@
     "dev":  "NODE_ENV=development ts-node-dev src/index.ts",
     "build": "rm -rf dist && tsc && cp -r data dist/data",
     "lint": "eslint .",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "pdf-to-json": "node scripts/pdf-to-json.js"
   },
   "keywords": [],
   "author": "",
