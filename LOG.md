@@ -1,5 +1,13 @@
 ### Logg
 
+#### 05-Oct-2025 / Pre-prosessert JSON
+ - Lesing/parsing av PDF-er fungerer fint i lokalt miljø, men blir en tung prosess på Render når dette skjer ved runtime. Innsett at noen form for pre-prosessering er nødvendig - slik at søk ikke skjer direkte mot PDF-filer.
+ - Lagd et skript (pdf-to-json) som kjøres manuelt for å generere en JSON-fil for hver PDF. Gjenbruker mye av logikken fra tidligere utils-filer (findPdfs og parsePdfs).
+ - Lagt til parseJson i /utils som kjøres ved runtime (erstatter tidligere findPdfs og parsePdfs).
+ - Oppdatert types.ts i backend med ParsedJson som beskriver strukturen på ferdige JSON-filer. 
+ - Håndterer filtering av ikke-match av søk i backend, frontend tar kun imot dokumenter med treff (tidligere filtrert i SearchResults-komponent).
+ - Ny Render-deploy - søkeresultat vises nå betydelig raskere (<1 sek).
+
 #### 02-Oct-2025 / Flere PDF-er
  - Lagt til flere vilkårsdokumenter - samtlige (totalt 32 stk) innenfor skadeforsikring i kategori: "kjøretøy", "reise- og boligforsikringer", "dyreforsikringer" og alle "tilleggsdekninger" ([her](https://www.sparebank1.no/nb/bank/privat/forsikring/forsikringsvilkar.html)).
  - Søk i deployed app ([her](https://sok-i-vilkar.onrender.com/)) går veldig treigt (>10 sek) før resultat vises. Per nå skjer lesing/parsing av PDF-er sekvensielt - regner med at dette er hoverårsaken, undersøker videre. Samtidig usikker på hva som er å forvente av gratis-versjon av Render.
